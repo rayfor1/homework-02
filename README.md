@@ -1,2 +1,2 @@
-# homework_02
+# homework-02
 Responsive 
