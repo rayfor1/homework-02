@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+</head>
+
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgba(189, 189, 189, 0.288);
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #1dcabc;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #1dcabc;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #ffffffd5;
+      padding: 20px;
+    }
+    </style>
+
+
+<body>
+  <!-- Using Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Raymond's Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/Users/raymond2/Documents/gwubootcamp/homework/homework-02/index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Page specific content goes here -->
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+  
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+  
+<div>
+    <label for="email">E-mail:</label>
+    <input id="email" type=email required>
+</div>        
+<br>
+<div>
+    <label for="message: ">Message:</label>
+    <textarea id="message:" name="message: " placeholder="Type Message here.." style="height:200px"></textarea>
+</div>    
+      <input type="submit" value="Submit">
+  
+    </form>
+</div>
+
+
+
+
+  
+  <!-- End of page-specific content -->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
